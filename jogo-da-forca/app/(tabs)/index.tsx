@@ -188,7 +188,7 @@ export default function App() {
                 <Text style={styles.resultWord}>A palavra era: {word}</Text>
               </>
             )}
-            <TouchableOpacity style={[styles.btn, { marginTop: 12 }]} onPress={startNewGame} disabled={!!finished && finished !== null}>
+            <TouchableOpacity style={[styles.btn, { marginTop: 12 }]} onPress={startNewGame}>
               <Text style={styles.btnText}>Jogar novamente!</Text>
             </TouchableOpacity>
           </View>
